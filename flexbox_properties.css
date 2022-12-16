@@ -1,0 +1,94 @@
+.fproperties {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 30vh;
+    margin: 0px;
+}
+
+
+
+#g {
+    background-color: green;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#o {
+    background-color: orange;
+    width: 300px;
+    display: flex;
+    padding: 15px;
+}
+
+#bl {
+    background-color: blue;
+    width: 80px;
+    padding: 15px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: yellow;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.letters {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    background-color: red;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+#uno {
+    background-color: white;
+    padding: 3px;
+}
+
+#due {
+    background-color: white;
+    padding: 3px;
+}
+
+#tre {
+    background-color: white;
+    padding: 3px;
+}
+
+#quattro {
+    background-color: white;
+    padding: 3px;
+}
+
+#a {
+    background-color: white;
+    padding: 3px;
+}
+
+#b {
+    background-color: white;
+    padding: 3px;
+}
+
+#c {
+    background-color: white;
+    padding: 3px;
+}
+
+#d {
+    background-color: white;
+    padding: 3px;
+}
