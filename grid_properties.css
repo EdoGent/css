@@ -1,0 +1,87 @@
+.properties {
+    width: 600px;
+    height: 500px;
+    display: grid;
+    grid-template-columns:200px 200px 200px;
+    gap: 1.5rem;
+    grid-template-areas: 
+    "g g g"
+    "y r b"
+    "o o b";
+}
+
+#g {
+    grid-area: g;
+    background-color: rgb(90, 223, 90);
+    padding: 10px 0px 0px 10px;
+}
+
+#y {
+    grid-area: y;
+    background-color: rgb(255, 255, 99);
+    padding: 10px 0px 0px 10px;
+}
+
+#r {
+    grid-area: r;
+    background-color: rgb(224, 62, 62);
+    padding: 10px 0px 0px 10px;
+}
+
+#b {
+    grid-area: b;
+    background-color: rgb(119, 119, 248);
+    padding: 10px 0px 0px 10px;
+}
+
+#o {
+    grid-area: o;
+    background-color: rgb(244, 186, 78);
+    padding: 10px 0px 0px 10px;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: 20px 20px;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.letters {
+    display: grid;
+    grid-template-columns: 20px 20px;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.uno {
+    background-color: white;
+}
+
+.due {
+    background-color: white;
+}
+
+.tre {
+    background-color: white;
+}
+
+.quattro {
+    background-color: white;
+}
+
+.a {
+    background-color: white;
+}
+
+.b {
+    background-color: white;
+}
+
+.c {
+    background-color: white;
+}
+
+.d {
+    background-color: white;
+}
